@@ -33,6 +33,7 @@ header .menu-item {
     background-color: #F15B22;
     border-radius: 5px;
 }
+
 .menu-item li:hover {
     box-shadow: 1px 1px 2px #151414;
     color: rgba(102, 164, 240, 0.923);
@@ -179,10 +180,35 @@ li>a {
     height: 300px;
     left: 230px;
     top: 2222.26px;
-    background: url("../images/watch.png"),linear-gradient(90deg, #F15B22 0%, rgba(241, 91, 34, 0) 100%);
+    background: url("../images/watch.png"), linear-gradient(90deg, #F15B22 0%, rgba(241, 91, 34, 0) 100%);
     background-blend-mode: overlay;
     border-radius: 8px;
     margin-bottom: 130px;
+}
+
+
+.gradient-content {
+    color: #FFFFFF;
+    padding: 59px 517px 59px 64px;
+}
+
+.gradient-content>h2 {
+    font-weight: 700;
+    font-size: 40px;
+   
+
+}
+
+.btn-call {
+    font-weight: 600;
+    font-size: 20px;
+    color:#F15B22;
+    width: 160px;
+    height: 64px;
+   margin-top: 24px;
+    border: none;
+    background: #FFFFFF;
+    border-radius: 5px;
 }
 
 /* footer section */
