@@ -133,16 +133,62 @@ li>a {
 /* my plan section */
 .my-plan {
     padding: 0 230px;
+    margin-bottom: 130px;
+}
+
+.my-plan>h2 {
+    text-align: center;
+    font-weight: 700;
+    font-size: 40px;
+    color: #151414;
+    margin-bottom: 55px;
+
 }
 
 .skills {
     display: flex;
-    justify-content: space-around;
+    gap: 80px;
+}
+
+.skills>div {
+    text-align: center;
+}
+
+.skills>div>h2 {
+    margin-top: 24px;
+    margin-bottom: 16px;
+    font-weight: 700;
+    font-size: 30px;
+    text-align: center;
+    color: #151414;
+}
+
+/* positive mindset */
+.positive-mindset {
+    padding: 0 230px;
+}
+
+.gradient {
+    border: 1px solid green;
+    width: 1140px;
+    height: 300px;
+    left: 230px;
+    top: 2222.26px;
+
+    background: linear-gradient(90deg, #F15B22 0%, rgba(241, 91, 34, 0) 100%);
+    border-radius: 8px;
+    margin-bottom: 130px;
 }
 
 /* footer section */
+footer {
+    height: 577px;
+    background: #151414;
+}
 
 .footer-container {
     display: flex;
     gap: 331px;
+    color: #f8f8f8;
+    padding: 130px 230px 230px 130px;
 }
