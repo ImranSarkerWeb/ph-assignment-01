@@ -5,6 +5,7 @@
     text-decoration: none;
 }
 
+
 html {
     scroll-behavior: smooth;
 }
@@ -17,6 +18,7 @@ header {
 }
 
 nav {
+
     margin-right: 230px;
 }
 
@@ -217,16 +219,18 @@ li>a {
 }
 
 /* footer section */
-footer {
-    height: 577px;
-    width: auto;
+.footer {
+ 
+    min-width: 720px;
+    color: #f8f8f8;
+    box-shadow: 0 0 0 100vmax #121212;
+    clip-path: inset(0 -100vmax);
     background-color: #151414;;
 }
 
 .footer-container {
     display: flex;
-    gap: 250px;
-    color: #f8f8f8;
+    gap: 150px;    
     margin:0 230px;
     padding-top: 130px;
     padding-bottom: 130px;
@@ -240,7 +244,7 @@ footer {
 }
 
 .future>p {
-    width: 485px;
+    width: 400px;
     font-weight: 400;
     font-size: 16px;
     margin-bottom: 16px;
@@ -271,4 +275,5 @@ footer {
 .copyright {
     text-align: center;
     color: #f8f8f8;
+    padding-bottom:20px;
 }
